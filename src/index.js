@@ -25,11 +25,16 @@ const Picker = () => {
       <div id="colors-list">
         {
           /* colors go here */
-          // ["red", "blue", "green"]
+
           <>
             <Color color="red" selectColor={selectColor} />
-            <Color color="blue" selectColor={selectColor} />
+            <Color color="orange" selectColor={selectColor} />
+            <Color color="yellow" selectColor={selectColor} />
             <Color color="green" selectColor={selectColor} />
+            <Color color="blue" selectColor={selectColor} />
+            <Color color="violet" selectColor={selectColor} />
+            <Color color="black" selectColor={selectColor} />
+            <Color color="silver" selectColor={selectColor} />
           </>
         }
       </div>
